@@ -276,17 +276,17 @@ body{
     .pop-up{
         left: 8px;
         width: 95%;
-        height: 39vh;
+        height: 32vh;
     }
     .material-symbols-outlined{
         margin-top: 15px;
-        margin-left: 230px;
+        margin-left: 190px;
     }
     .popup-text{
         margin-left: 8px;
-        width: 437px;
+        width: 395px;
         align-items: center;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
 
     }
     .popup-botton{
