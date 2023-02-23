@@ -15,7 +15,7 @@ body{
     box-shadow: 0px 0px 10px rgb(182, 181, 181);
     position: sticky;
     top: 0;
-    width: 110%;   
+    width: 100%;   
 }
 .task-list{
     position: sticky;
@@ -86,4 +86,55 @@ body{
     font-size: large;
     padding-right: 40px;  
     padding-left: 30px; 
+}
+@media only screen and (max-width: 700px){
+    .task-list{
+        padding-right: 40px;    
+    }
+    .task{
+        padding-left: 10px;
+    }
+    
+    .new-task-click{
+        display: none;
+    }
+    .back1{
+        left: 3%;
+        top: 25px;
+    }
+    .back-click{
+        top: 0px;
+        left: 16%;
+    }
+    .new-task1{
+        top: -33px;
+        left: 50%;   
+    }
+    .new-task-image{
+        height: 55px;
+        width: 55px;
+    }
+    .card-list{
+        width: 110vw;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 70%;
+        margin: 10px;
+        text-align: start;
+    }
+    .trip{
+        padding-top: 20px;
+        padding-bottom: 30px;
+        font-size: 20px;
+        font-family: sans-serif;
+        padding-left: 36%;
+    }
+    .ticked{
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .trip-list2{
+        padding-left: 16px;
+        padding-top: 0px;
+    }
 }
