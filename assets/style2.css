@@ -276,11 +276,11 @@ body{
     .pop-up{
         left: 8px;
         width: 95%;
-        height: 32vh;
+        height: 42vh;
     }
     .material-symbols-outlined{
-        margin-top: 15px;
-        margin-left: 190px;
+        padding-top: -40px;
+        margin-bottom: 155px;
     }
     .popup-text{
         margin-left: 8px;
@@ -291,7 +291,7 @@ body{
     }
     .popup-botton{
         height: 70px;
-        margin-left: 232px;
+        margin-left: 194px;
     }
     .underline{
         display: block;
@@ -299,5 +299,8 @@ body{
         height: 30px;
         border-top: 1px solid lightgrey;
         
+    }
+    .popup-add-new{
+        width: 120px;
     }
 }
